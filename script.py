@@ -14,4 +14,5 @@ pizza_and_prices.sort()
 print(pizza_and_prices)
 
 cheapest_pizza = pizza_and_prices[0][1]
-print(cheapest_pizza)
+priciest_pizza = pizza_and_prices[-1][1]
+print(priciest_pizza)
