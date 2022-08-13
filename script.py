@@ -12,3 +12,6 @@ pizza_and_prices = [[2, 'pepperoni'], [6, 'pineapple'], [1, 'cheese'], [
 
 pizza_and_prices.sort()
 print(pizza_and_prices)
+
+cheapest_pizza = pizza_and_prices[0][1]
+print(cheapest_pizza)
