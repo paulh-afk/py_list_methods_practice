@@ -17,4 +17,5 @@ cheapest_pizza = pizza_and_prices[0][1]
 priciest_pizza = pizza_and_prices[-1][1]
 
 pizza_and_prices.pop(-1)
+pizza_and_prices.insert(4, [2.5, 'peppers'])
 print(pizza_and_prices)
